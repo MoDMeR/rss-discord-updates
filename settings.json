@@ -1,0 +1,7 @@
+
+{
+  "discordToken" : "InputTokenHere",
+  "mongoDbUrl" : "InputURLHere",
+  "guildID" : "InputIDHere",
+  "guildPrimaryChannel" : "InputIDHere"
+}

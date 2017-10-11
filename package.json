@@ -1,0 +1,19 @@
+{
+  "name": "rss-discord-updates",
+  "version": "1.0.0",
+  "description": "Getting RSS updates and publishing them to Discord.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Elihu",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "mongodb": "^2.2.25",
+    "monk": "^4.0.0",
+    "package.json": "^2.0.1",
+    "rss-feed-emitter": "~1.0.6"
+  }
+}
