@@ -38,7 +38,7 @@ Monitor RSS feeds and post to Discord channels.
 **STEP FIVE**: Put the pieces togeter
 * Using your favorite editor open the ```settings.json``` file.
 * Return to the **Discord** window from **Step One** and, opening your Bot's settings, select ```click to reveal``` in order to get the Bot's token. Copy this token and paste it into the ```settings.json``` as the ```discordToken```.
-* Return to your **Database Settings** from step two and on the **[My Databases]**(https://mlab.com/databases/mydb) screen will appear something like: ```mongodb://<dbuser>:<dbpassword>@ds117615.mlab.com:17615/mydb```
+* Return to your **Database Settings** from step two and on the [**My Databases**](https://mlab.com/databases/mydb) screen will appear something like: ```mongodb://<dbuser>:<dbpassword>@ds117615.mlab.com:17615/mydb```
 * Copy this line, replacing with the pertinent ```dbuser``` and ```dbpassword``` information. Place this information in ```settings.json``` as the ```mongoDbUrl```.
 * In **Discord** right-click on the server you earlier invited your bot to. Select ```Copy ID```. Paste this information in ```settings.json``` as your ```guildID```.
 * In **Discord** right-click on the specific channel where you want notifications published and select ```Copy ID```. Paste this ID in ```settings.json``` as your ```guildPrimaryChannel```.
